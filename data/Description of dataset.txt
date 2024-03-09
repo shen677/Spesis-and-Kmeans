@@ -1,0 +1,16 @@
+"sepsis3_cci.csv": the most primitive dataset from MIMIC.
+
+"sepsis3_cci_mice_drop.csv": "sepsis3_cci.csv" interpolated with missing values.
+
+"xg2.csv": It is the final MIMIC dataset. The MIMIC dataset after missing value interpolation, exclusion of highly correlated variables, and Kmeans clustering.
+
+"eicu_cci.csv": the most primitive dataset from eICU.
+
+"sepsis3_cci_eicu_drop2.csv": ""eicu_cci.csv" interpolated with missing values.
+
+"sepsis3_eicu_kmeans_drop_p2.csv": It is the final eICU dataset. The eICU dataset after missing value interpolation, exclusion of highly correlated variables, and Kmeans clustering.
+
+"importance_feature_mimic.csv" and "importance_feature_eicu.csv" are importance of clustering variables.
+
+"BPNN_subphenotype_mimic.csv" and "BPNN_subphenotype_eicu.csv" are predicted results by sepsis subphenotype prediction model.
+
